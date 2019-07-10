@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3E3E3E">
+    <TextView
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDark"
+        android:text="  欢迎!"
+        android:textSize="20dp"
+        android:textColor="#ffffffff"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:src="@drawable/toptoplist" />
+    <TableLayout
+        android:id="@+id/Table"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+    </TableLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/myrecycleview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>
